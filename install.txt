@@ -16,3 +16,12 @@ git checkout stable
 make clean test
 
 # don't forget to add binary directory to PATH
+
+And then kiex.
+
+kiex list known
+kiex install 1.0.3
+kiex default 1.0.3
+
+https://github.com/taylor/kiex
+
