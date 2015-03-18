@@ -5,6 +5,7 @@ defmodule Fn do
   provides factorial
   """
 
+  # Define prototype
   @doc """
   compute factorial of given number x
   """
