@@ -1,4 +1,4 @@
-defmodule M do
+defmodule Interact do
   def f() do
     s = IO.gets "user>"
     IO.puts s

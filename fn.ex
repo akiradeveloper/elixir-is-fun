@@ -1,6 +1,14 @@
 # Any function should be defined inside module?
 # Without this, compiler fails
-defmodule M do
+defmodule Fn do
+  @moduledoc """
+  provides factorial
+  """
+
+  @doc """
+  compute factorial of given number x
+  """
+  def f(x)
 
   # Order is important. Don't swap with the recursive part
   def f(x) when x == 1 do
